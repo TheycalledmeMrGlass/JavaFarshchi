@@ -1,0 +1,209 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "OkButton"
+				"text": "OK"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "JButton1MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 625
+				"y": 495
+				"width": 123
+				"height": 45
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "resultlabel"
+				"text": "FirstNote"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 85
+				"height": 51
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "Note1"
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textArea1KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Note1MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Note1MouseClicked", true ) )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 110
+				"y": 5
+				"width": 190
+				"height": 70
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "SecondNote"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 80
+				"width": 90
+				"height": 65
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "ThirdNote"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 155
+				"width": 85
+				"height": 60
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "ForthNote"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 235
+				"width": 85
+				"height": 80
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "FifthNote"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 360
+				"width": 135
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Note2"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Note2MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 100
+				"y": 85
+				"width": 205
+				"height": 55
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Note3"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Note3MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 100
+				"y": 150
+				"width": 204
+				"height": 80
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Note4"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Note4MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 105
+				"y": 240
+				"width": 194
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Note5"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Note5MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 115
+				"y": 340
+				"width": 180
+				"height": 90
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Date&Writer"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 350
+				"y": 5
+				"height": 70
+				"width": 70
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Date&Writer"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 70
+				"height": 70
+				"x": 350
+				"y": 160
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Date&Writer"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 80
+				"height": 70
+				"x": 345
+				"y": 75
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Date&Writer"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 75
+				"height": 70
+				"x": 350
+				"y": 245
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "Date&Writer"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 70
+				"height": 70
+				"x": 350
+				"y": 350
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Data1"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Data1MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 550
+				"y": 15
+				"height": 65
+				"width": 124
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Data2"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Data2MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 540
+				"y": 105
+				"height": 45
+				"width": 129
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Data3"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Data3MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 540
+				"y": 175
+				"height": 55
+				"width": 125
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Data4"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Data4MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 530
+				"y": 255
+				"width": 134
+				"height": 60
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "Data5"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Data5MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 535
+				"y": 340
+				"width": 124
+				"height": 75
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 30 )
+			"size": new java.awt.Dimension( 760, 580 )
+		} )
+	}
+}
