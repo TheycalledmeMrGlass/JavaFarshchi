@@ -1,0 +1,113 @@
+JFDML JFormDesigner: "7.0.2.0.298" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "StartingField"
+				"text": "Enter it"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 50
+				"y": 20
+				"width": 120
+				"height": 40
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "IdField"
+				"text": "id:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 20
+				"y": 80
+				"width": 270
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "ModelField"
+				"text": "Model:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 20
+				"y": 130
+				"width": 290
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "PelakField"
+				"text": "Pelak:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 185
+				"width": 330
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Next:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 165
+				"y": 230
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "TakhalofDialog"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "TakhalofLabel"
+				"text": "Takhalof:"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 40
+				"y": 10
+				"width": 120
+				"height": 35
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "TakhalofField"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 20
+				"y": 55
+				"width": 194
+				"height": 95
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "DoneButton"
+				"text": "Done"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 55
+				"y": 185
+				"width": 128
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 445, 30 )
+			"size": new java.awt.Dimension( 270, 250 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "ErrorDialog"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+				"text": "Fill it !"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 45
+				"y": 50
+				"width": 105
+				"height": 55
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 20, 320 )
+			"size": new java.awt.Dimension( 200, 200 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "SuccessDialog"
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "SuccessfulField"
+				"text": "Successful"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 25
+				"y": 50
+				"width": 114
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 310, 320 )
+			"size": new java.awt.Dimension( 200, 200 )
+		} )
+	}
+}
